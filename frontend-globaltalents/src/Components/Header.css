@@ -1,0 +1,103 @@
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 10px 0;
+}
+header ul{
+    display: inline-block;
+}
+header ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+header ul li a{
+    font-weight: 500;
+    transition: 0.5s;
+}
+header ul li a:hover{
+    color: #38d16a;
+    font-weight: 500;
+}
+.navbar-item-icon{
+    color: #000;
+    display: none;
+}
+header.active{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 28px 0 rgba(0 0 0 /6%);
+    width: 100%;
+    z-index: 10;
+}
+.logo{
+    color: black;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    opacity: 0.95;
+    padding: 10px;
+}
+.logo span{
+    font-weight: 300;
+}
+header ul .btn{
+    border: 1.5px solid black;
+    border-radius: 50px;
+    color: #10221b;
+    cursor: pointer;
+    background: none;
+    padding: 10px 20px;
+}
+@media screen and (max-width:700px) {
+    .nav-links{
+        display: none;
+    }
+    .nav-links-sidebar{
+        position: fixed;
+        background-color: #38d16a;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100%;
+        padding: 30px;
+        padding-top: 60px;
+    }
+    .nav-links-sidebar{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    header ul li {
+        margin-bottom: 30px;
+    }
+    .navbar-item-icon{
+        display: block;
+        position: absolute;
+        right: 30px;
+        color: #000;
+        border: 1px solid #000;
+        padding: 5px 10px;
+    }
+    header ul li a:hover{
+        color: #000;
+        font-weight: 500;
+    }
+    header ul .btn{
+        padding: 0;
+        border: none;
+    }
+}

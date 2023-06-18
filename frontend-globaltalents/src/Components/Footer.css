@@ -1,0 +1,49 @@
+.footer{
+    margin-top: 50px;
+    padding: 20px 30px;
+    background-color: black;
+}
+.footer .box-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.footer .footbox{
+    padding: 10px;
+    flex-basis: 40%;
+}
+.footer .box-container .footbox h3{
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.footer .box-container .footbox a{
+    color: #bdb9b9;
+    font-size: 15px;
+    padding-bottom: 15px;
+    display: block;
+}
+.footer .box-container .footbox a i{
+    color: #38d16a;
+    padding-right: 5px;
+    transition: .2s linear;
+}
+.footer .box-container .footbox a:hover i{
+    padding-right: 20px;
+}
+.footer .credit{
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 10px;
+    border-top: 1px solid #bdb9b9;
+    font-size: 15px;
+    color: #fff;
+}
+.footer span{
+    color: #38d16a;
+}
+@media screen and (max-width:768px) {
+    .footer .box-container{
+        flex-direction: column;
+    }
+}
