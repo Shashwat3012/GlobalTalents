@@ -7,7 +7,7 @@ import { Footer } from '../Components/Footer'
 export const Home = () => {
   return (
     <>
-    <Header />
+    <Header t1='Signin' t2='Signup'/>
     <Homecontent />
     <Service />
     <Footer />

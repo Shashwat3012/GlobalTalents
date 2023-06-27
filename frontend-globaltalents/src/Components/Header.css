@@ -1,16 +1,20 @@
-.container{
+.header .container{
     max-width: 90%;
     margin: auto;
+    padding: 5px;
+    margin-bottom: 5px;
 }
-.flex{
+.header .flex{
     display: flex;
     justify-content: space-between;
 }
 header ul{
     list-style: none;
+    padding: 5px;
 }
 a{
     text-decoration: none;
+    color: #10221b;
 }
 header{
     padding: 10px 0;
@@ -26,7 +30,7 @@ header ul li a{
     font-weight: 500;
     transition: 0.5s;
 }
-header ul li a:hover{
+header .container ul li a:hover{
     color: #38d16a;
     font-weight: 500;
 }
@@ -49,9 +53,10 @@ header.active{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     opacity: 0.95;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .logo span{
+    color: #38d16a;
     font-weight: 300;
 }
 header ul .btn{
@@ -61,6 +66,20 @@ header ul .btn{
     cursor: pointer;
     background: none;
     padding: 10px 20px;
+}
+
+/* double nav bar  */
+.second-nav{
+    background-color: #38d16a;
+}
+.sec-container{
+    width: 95%;
+    margin: auto;
+    padding: 5px;
+}
+.second-nav .sec-container ul li Link:hover{
+    font-weight: 500;
+    color: #000;
 }
 @media screen and (max-width:700px) {
     .nav-links{
@@ -92,7 +111,7 @@ header ul .btn{
         border: 1px solid #000;
         padding: 5px 10px;
     }
-    header ul li a:hover{
+    header .container ul li a:hover{
         color: #000;
         font-weight: 500;
     }

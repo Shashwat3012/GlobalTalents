@@ -1,0 +1,51 @@
+.proposals .container{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+.proposals img{
+    border-radius: 50%;
+    border: 2px solid #10221b;
+    height: 150px;
+    width: 150px;
+}
+.proposals .row1{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+.proposals .cont{
+    padding: 0 20px;
+}
+.proposals .cont .desc{
+    margin-top: 10px;
+}
+.proposals .cont .desc h4{
+    margin-top: 5px;
+}
+.proposals .container .cont .buttons button{
+    background: #38d16a;
+    border: 1px solid #38d16a;
+    border-radius: 5px;
+    color: #10221b;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:700px) {
+    .proposals{
+        text-align: center;
+    }
+    .proposals .row1{
+        flex-direction: column;
+    }
+}
