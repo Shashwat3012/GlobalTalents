@@ -1,0 +1,50 @@
+.courses-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .course-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .course-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-card h3 {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .course-card p {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .enroll-button {
+    background-color: #38d16a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .enroll-button:hover {
+    background-color: #26994d;
+  }
+  .course-image {
+    width: 329px;
+    height: 153px;
+    object-fit: cover; /* Adjust as per your requirements */
+  }
+  
