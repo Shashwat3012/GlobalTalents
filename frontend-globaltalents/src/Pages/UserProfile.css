@@ -1,0 +1,56 @@
+.profile{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.base{
+    border: solid 1px gray;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.institution{
+    margin: 20px;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: solid 1px black;
+}
+
+.institution:last-child{
+    padding-bottom: 10px;
+    border-bottom: none;
+}
+
+.skills-element{
+    margin-top: 15px;
+    display: flex;
+}
+.skills-list{
+    border: solid 1px black;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.experience-elements{
+    margin-top: 20px;
+    display: flex;
+    padding: 15px;
+    border-bottom: solid 1px black;
+}
+
+.experience-elements:last-child{
+    border-bottom: none;
+}
+
+.experience-elements img{
+    margin-right: 30px;
+}
+
+.intro img{
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
