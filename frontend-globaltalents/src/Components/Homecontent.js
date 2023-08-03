@@ -4,7 +4,7 @@ import './Homecontent.css'
 export const Homecontent = () => {
   return (
     <>
-    <div className='homecontent'>
+    <div className='Homecontent'>
         <div className="container">
             <div className="row">
                 <div className="col2">
